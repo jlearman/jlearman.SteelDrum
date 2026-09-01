@@ -6,7 +6,7 @@
 <control>
 label_cc1=Mod:width
 set_hdcc1=0.5
-default_path=jSteelDrum-flac-sfz/
+default_path=flac/
 
 <master>
 volume=6
