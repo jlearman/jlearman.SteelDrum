@@ -1,3 +1,4 @@
+
 // Original: https://github.com/jlearman/jSteelDrum2
 
 // CC0 / Unlicence - free to use as you wish; no warranty
@@ -5,10 +6,10 @@
 <control>
 label_cc1=Mod:width
 set_hdcc1=0.5
-default_path=jSteelDrum-flac-sfz/
+default_path=flac/
 
 <master>
-volume=2.5
+volume=6
 
 // Mod wheel controls stereo depth
 
@@ -41,8 +42,7 @@ width_curvecc1=99
 
 loop_mode=one_shot
 
-<group> lovel=1 hivel=40
-ampeg_release=100.000000
+<group> lovel=1 xfout_lovel=21 xfout_hivel=52
 <region> sample=jsdb_060__C4_1-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.333333333333
 <region> sample=jsdb_060__C4_1-2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.333333333333 hirand=0.666666666667
 <region> sample=jsdb_060__C4_1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.666666666667 hirand=1.0
@@ -119,8 +119,7 @@ ampeg_release=100.000000
 <region> sample=SteelDrum_083__B5_1-2.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.333333333333 hirand=0.666666666667
 <region> sample=SteelDrum_083__B5_1.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.666666666667 hirand=1.0
 
-<group> lovel=41 hivel=64
-ampeg_release=100.000000
+<group> xfin_lovel=21 xfin_hivel=52 xfout_lovel=53 xfout_hivel=76
 <region> sample=jsdb_060__C4_2-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.333333333333
 <region> sample=jsdb_060__C4_2-2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.333333333333 hirand=0.666666666667
 <region> sample=jsdb_060__C4_2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.666666666667 hirand=1.0
@@ -199,8 +198,7 @@ ampeg_release=100.000000
 <region> sample=SteelDrum_083__B5_2-3.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.5 hirand=0.75
 <region> sample=SteelDrum_083__B5_2.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.75 hirand=1.0
 
-<group> lovel=65 hivel=88
-ampeg_release=100.000000
+<group> xfin_lovel=53 xfin_hivel=76 xfout_lovel=77 xfout_hivel=100
 <region> sample=jsdb_060__C4_3-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.25
 <region> sample=jsdb_060__C4_3-2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.25 hirand=0.5
 <region> sample=jsdb_060__C4_3-3.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.5 hirand=0.75
@@ -283,8 +281,7 @@ ampeg_release=100.000000
 <region> sample=SteelDrum_083__B5_3-2.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.333333333333 hirand=0.666666666667
 <region> sample=SteelDrum_083__B5_3.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.666666666667 hirand=1.0
 
-<group> lovel=89 hivel=112
-ampeg_release=100.000000
+<group> xfin_lovel=77 xfin_hivel=100 xfout_lovel=101 xfout_hivel=120
 <region> sample=jsdb_060__C4_3a-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.333333333333
 <region> sample=jsdb_060__C4_3a-2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.333333333333 hirand=0.666666666667
 <region> sample=jsdb_060__C4_3a.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.666666666667 hirand=1.0
@@ -362,8 +359,7 @@ ampeg_release=100.000000
 <region> sample=SteelDrum_083__B5_3-2.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.333333333333 hirand=0.666666666667
 <region> sample=SteelDrum_083__B5_3.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.666666666667 hirand=1.0
 
-<group> lovel=113 hivel=127
-ampeg_release=100.000000
+<group> xfin_lovel=101 xfin_hivel=120 hivel=127
 <region> sample=SteelDrum_060__C4_4-1.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.0 hirand=0.25
 <region> sample=SteelDrum_060__C4_4-2.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.25 hirand=0.5
 <region> sample=SteelDrum_060__C4_4-3.flac lokey=Gb3 hikey=C4  pitch_keycenter=C4  lorand=0.5 hirand=0.75
@@ -457,7 +453,6 @@ ampeg_release=100.000000
 <region> sample=SteelDrum_083__B5_4-2.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.25 hirand=0.5
 <region> sample=SteelDrum_083__B5_4-3.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.5 hirand=0.75
 <region> sample=SteelDrum_083__B5_4.flac lokey=B5  hikey=F6  pitch_keycenter=B5  lorand=0.75 hirand=1.0
-
 
 // stereo depth control curve
 <curve> curve_index=99 v000=-1 v060=0 v068=0 v127=2
