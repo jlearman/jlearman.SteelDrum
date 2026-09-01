@@ -8,7 +8,6 @@ set_hdcc1=0.5
 default_path=flac/
 
 <master>
-volume=2.5
 
 // Mod wheel controls stereo depth
 
